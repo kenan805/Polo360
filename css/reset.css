@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, hr, p, pre,
+a, img, sub, sup, b, u, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, footer, header, hgroup, main
+menu, nav, section, summary, time {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    line-height: 1;
+}
+ul {
+	list-style: none;
+}
+a {
+    text-decoration: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
