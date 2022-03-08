@@ -69,7 +69,8 @@ hr {
 .col:last-of-type { 
     margin: 0; 
 }
-#icons1 {
+/* Way 1 */
+/* #icons1 {
     padding: 0 0 44px 0;
 }
 #icons1 a {
@@ -91,7 +92,23 @@ hr {
 #fcb:hover { background-position: -50px -50px;}
 #lin:hover { background-position: -100px -50px;}
 #ytb:hover { background-position: -150px -50px;}
-#tmb:hover { background-position: -200px -50px;}
+#tmb:hover { background-position: -200px -50px;} */
+/* Way 2 */
+#icons2 {
+    padding: 0 0 44px 0;
+}
+#icons2 i {
+    display: inline-block;
+    font-size: 3.2em;
+    color: #aaa;
+    text-shadow: 1px 2px 5px #b2a5a2;
+    margin-right: 5px;
+}
+.fa-rss-square:hover { color: #ee802f!important }
+.fa-facebook-square:hover { color: #4267B2!important }
+.fa-linkedin:hover { color: #0e76a8!important }
+.fa-youtube-square:hover { color: #ff0000!important }
+.fa-tumblr-square:hover { color: turquoise!important }
 
 .col p:nth-of-type(2){
     font: 13px Arial, Helvetica, sans-serif;
